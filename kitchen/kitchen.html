@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Kitchen</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" type="image/png" href="image/logo.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <img src="image/logo.png" alt="Logo" class="logo">
+         <h2>Kitchen</h2>
+      </header>
+      <div class="kitchen-container">
+         <ol>
+                 <li>
+                        <h4>Eat in:</h4>
+                    <div>
+                        <h4>Time:</h4>
+                        <p>{{ sample[0] }}</p>
+                     </div>
+                     <div>
+                         <h4>Table:</h4>
+                         <p>{{ sample[1] }}</p>
+                     </div>
+                     <div>
+                         <h4>Size:</h4>
+                         <p>{{ sample[2] }}</p>
+                     </div>
+                     <div>
+                         <h4>Sauce:</h4>
+                         <p>{{ sample[3] }}</p>
+                     </div>
+                     <div>
+                         <h4>Toppings:</h4>
+                         <p>{{ sample[4] }}</p>
+                     </div>
+                     <div>
+                        <h4>Drinks:</h4>
+                        <p>{{ sample[5] }}</p>
+                    </div>
+                    <div>
+                        <h4>Checkbox:</h4>
+                        <p><input type="checkbox"/></p>
+                 </div>
+                 </li>
+         </ol>  
+        </div>
+        <div class="kitchen-container">
+            <ol>
+                <li>
+                        <h4>Takeaway:</h4>
+                       <div>
+                           <h4>Time:</h4>
+                           <p>{{ sample[0] }}</p>
+                        </div>
+                        <div>
+                            <h4>Size:</h4>
+                            <p>{{ sample[1] }}</p>
+                        </div>
+                        <div>
+                            <h4>Pizza:</h4>
+                            <p>{{ sample[2] }}</p>
+                        </div>
+                        <div>
+                            <h4>Drinks:</h4>
+                            <p>{{ sample[3] }}</p>
+                        </div>
+                        <div>
+                            <h4>Box:</h4>
+                            <p><select name="box" id="box">
+                                <option value="box1">Box 1</option>
+                                <option value="box2">Box 2</option>
+                                <option value="box3">Box 3</option>
+                                <option value="box4">Box 4</option>
+                              </select></p>
+                        </div>
+                       <div>
+                           <h4>Checkbox:</h4>
+                           <p><input type="checkbox"/></p>
+                    </div>
+                    </li>
+            </ol>  
+           </div>         
+   </body>
+</html>

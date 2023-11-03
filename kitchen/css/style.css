@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    flex-shrink: 0;
+    background: linear-gradient(93deg, #FF3030 -14.25%, #BD1010 99.19%);
+    box-shadow: 4px 4px 8px 4px rgba(96, 55, 17, 0.50);
+}
+.logo {
+    max-width: 140px;
+    overflow: hidden;
+    padding: 5px 0 0 30px;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/207142/pexels-photo-207142.jpeg?cs=srgb&dl=pexels-pixabay-207142.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+h2 {
+    font-family: 'Freckle Face', sans-serif;
+    text-shadow: 7px 7px 7px rgba(119, 72, 28, 0.50);
+    font-size: 70px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    background: linear-gradient(97deg, #49EF45 8.47%, #F1C677 44.26%, #F64 65.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #221204;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 20px;
+}
+.kitchen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.kitchen-container > ol {
+    flex: 1;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+.kitchen-container > ol > li {
+    display: flex;
+    justify-content: space-between;
+}
+.kitchen-container > ol > li > div {
+    flex: 1;
+}
+li {
+    font-size: 20px;
+    padding: 20px;
+    color: #221204;
+    border-radius: 15px;
+    background: linear-gradient(4deg, #E7B62A -15.73%, #F9D267 64.21%);
+    text-align: center;
+    font-family: 'Days One', sans-serif;
+    width: 98%;
+    margin: 10px;
+}

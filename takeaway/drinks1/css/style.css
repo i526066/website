@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    flex-shrink: 0;
+    background: linear-gradient(93deg, #FF3030 -14.25%, #BD1010 99.19%);
+    box-shadow: 4px 4px 8px 4px rgba(96, 55, 17, 0.50);
+}
+.logo {
+    max-width: 140px;
+    overflow: hidden;
+    padding: 5px 0 0 30px;
+}
+.contact {
+    width: 280px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    background: linear-gradient(4deg, #E7B62A -15.73%, #F9D267 64.21%);
+    filter: drop-shadow(4px 4px 8px rgba(96, 55, 17, 0.50));
+    justify-content: center;
+    border-radius: 25px;
+    font-family: 'Days One', sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(119, 72, 28, 0.25);
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 65px;
+    letter-spacing: 1.8px;
+    border: 0px;
+    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
+}
+.contact:hover {
+    transform: scale(1.1);
+}
+a:link,
+a:active,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/207142/pexels-photo-207142.jpeg?cs=srgb&dl=pexels-pixabay-207142.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+h3 {
+    margin: 10px;
+    font-family: 'Freckle Face', sans-serif;
+    text-shadow: 7px 7px 7px rgba(119, 72, 28, 0.50);
+    font-size: 80px;
+    color: #F9D267;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #221204;
+    text-align: center;
+}
+.pizza {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute items with space around them */
+    align-items: flex-start; /* To align containers from the top */
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto; /* Center the containers horizontally */
+}
+.pizza-container {
+    width: 340px;
+    height: 360px;
+    text-align: center;
+    text-shadow: 7px 7px 7px rgba(119, 72, 28, 0.25);
+    font-family: "Days One";
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background: linear-gradient(97deg, rgba(255, 219, 120, 1) 30.96%, #E48B38 90.94%);
+    padding: 30px;
+    margin: 20px; /* Reduced space between containers */
+    border-radius: 30px;
+}
+.pizza-container > img {
+    width: 248px;
+    height: 187px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 5px solid #A95E17;
+}
+h4 {
+    font-family: 'Freckle Face', sans-serif;
+    text-shadow: 3px 3px 3px rgba(119, 72, 28, 0.50);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    color: #F9D267;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #221204;
+    margin-right: auto;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    text-align: center;
+    color: #221204;
+    margin: 10px;
+}
+.add-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.small, .medium, .large {
+    background: linear-gradient(169deg, #49EF45 6.57%, #33AA16 126.83%);
+    text-align: center;
+    text-shadow: 7px 7px 7px rgba(119, 72, 28, 0.25);
+    font-family: Days One;
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    margin: 5px; /* Adjust spacing between buttons */
+    height: 50px;
+    width: 200px; /* Adjust width as needed */
+    border-radius: 25px;
+    border: 0px;
+    color: #F9D267;
+    -webkit-text-stroke: 1.5px #221204;
+    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
+    filter: drop-shadow(2px 2px 6px rgba(96, 55, 17, 0.50));
+}
+.small:hover, .medium:hover, .large:hover {
+    transform: scale(1.05);
+}
+.continue {
+    width: 480px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; /* Centering the element horizontally */
+    background: linear-gradient(169deg, #F64 6.57%, #BD1010 126.83%);
+    filter: drop-shadow(4px 4px 8px rgba(96, 55, 17, 0.50));
+    justify-content: center;
+    border-radius: 25px;
+    font-family: 'Days One', sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(119, 72, 28, 0.25);
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 65px;
+    letter-spacing: 1.5px;
+    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+    color: #F9D267;
+    -webkit-text-stroke: 2px #221204;
+    border: #690B0B solid 4px;
+}
+.continue:hover {
+    transform: scale(1.1);
+}
