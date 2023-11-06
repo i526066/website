@@ -75,11 +75,11 @@ h3 {
 .pizza {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Distribute items with space around them */
-    align-items: flex-start; /* To align containers from the top */
+    justify-content: space-around;
+    align-items: flex-start;
     width: 1200px;
     text-align: center;
-    margin: 0 auto; /* Center the containers horizontally */
+    margin: 0 auto;
     margin-bottom: -20px;
     margin-top: 30px;
 }
@@ -94,7 +94,7 @@ h3 {
     background: linear-gradient(97deg, rgba(255, 219, 120, 1) 30.96%, #E48B38 90.94%);
     padding: 30px;
     margin: 20px;
-    margin-top: -10px; /* Reduced space between containers */
+    margin-top: -10px;
     border-radius: 30px;
 }
 .pizza-container > img {
@@ -135,7 +135,7 @@ p, li {
     height: 60px;
     display: flex;
     align-items: center;
-    margin: 0 auto; /* Centering the element horizontally */
+    margin: 0 auto;
     background: linear-gradient(169deg, #F64 6.57%, #BD1010 126.83%);
     filter: drop-shadow(4px 4px 8px rgba(96, 55, 17, 0.50));
     justify-content: center;
